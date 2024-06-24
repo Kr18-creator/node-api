@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "3fd8d3a9-a1d8-4592-bfee-76a4690a4ea0",
+		"name": "node-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "26864622"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:3000/files"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"number\": 8\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/input"
+			},
+			"response": []
+		}
+	]
+}
